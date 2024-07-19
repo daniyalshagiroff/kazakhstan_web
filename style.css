@@ -1,0 +1,177 @@
+.page1{
+    background-color: #ADD8E6;
+    background-size: cover;
+    margin-top: -20px;
+    margin-left:-8px;
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+}
+
+.container-flex{
+    display: flex;
+    gap: 126px;
+}
+
+.name{
+    width:700px;
+    margin-top: 452px;
+}
+
+
+.kz{
+    font-family: "League Spartan", sans-serif;
+    font-size: 96px;
+    color: #00008B;
+    margin: 0;
+}
+
+.heart{
+    font-family: "Sanchez", serif;
+    color: #00008B;
+    display: inline-block;
+    font-size: 66px;
+    margin: 0;
+}
+
+.mountain{
+    object-fit: cover;
+    height: 900px;
+    width: 600px;
+    margin-top: 180px;
+}
+
+.page2{
+    background-color:#c6ffb9;
+    padding-top: 100px;
+    padding-bottom: 260px;
+}
+
+.name2{
+    font-family: "League Spartan", sans-serif;
+    font-size: 96px;
+    color: #006400;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+
+.picture{
+    object-fit: cover;
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+}
+
+.container-grid h3 {
+    font-family: "League Spartan", sans-serif;
+    font-size: 46px;
+    color: #2E7D32;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 220px;
+}
+
+.container-grid{
+    display:grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-column-gap: 150px;
+}
+
+.page3{
+    background-color: #F5F5DC;
+    padding-top: 20px;
+}
+
+.page3 img{
+    object-fit: cover;
+    height: 500px;
+    width: 500px;
+}
+
+.page3 h2{
+    font-family: "League Spartan", sans-serif;
+    color: #5B4636;
+}
+
+.page3 p{
+    font-family: "Sanchez", serif;
+    color: #5B4636;
+}
+
+.page4 h1{
+    font-family: "League Spartan", sans-serif;
+}
+
+.page4 p{
+    font-family: "Sanchez", serif;
+}
+
+@media(max-width: 1500px){
+
+    .mountain{
+        height: 800px;
+        width: 500px;
+        margin-top: -100px;
+    }
+
+    .name{
+        width:700px;
+        margin-top: 100px;
+        width: auto
+    }
+
+    .container-flex{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .picture{
+        height: 200px;
+        width:200px;
+    }
+    .container-grid{
+        display: grid;
+        grid-template-columns: 350px;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 35px;
+    }
+
+    .container2{
+        margin-top: 50px;
+    }
+
+    .container-grid h3{
+        font-size: 26px;
+        justify-content: flex-start;
+    }
+
+    .page2{
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+
+    .name2{
+        font-size: 66px;
+    }
+
+    .page3 img{
+        object-fit: cover;
+        height: 300px;
+        width: 300px;
+    }
+
+}
+
+
+
+
